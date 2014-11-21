@@ -1,0 +1,14 @@
+-server
+-Xms128m
+-Xmx512m
+-XX:MaxPermSize=250m
+-XX:ReservedCodeCacheSize=150m
+-ea
+-Dsun.io.useCanonCaches=false
+-Dawt.useSystemAAFontSettings=on
+-Dswing.aatext=true
+-Dsun.java2d.xrender=true
+-Djava.net.preferIPv4Stack=true
+-Djsse.enableSNIExtension=false
+-XX:+UseConcMarkSweepGC
+-XX:SoftRefLRUPolicyMSPerMB=50
